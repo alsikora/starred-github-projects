@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Starred Projects from GitHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://styleguide.brainly.com/77.0.3/style-guide.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/style/main.css">
+</head>
+<body>
+
+<div class="sg-layout">
+    <header class="sg-header sg-header--fixed">
+        <div class="sg-header__container">
+            Find common favorite projects for several users.
+        </div>
+    </header>
+
+    <main class="sg-layout__container">
+        <div class="sg-layout__content">
+            <div class="sg-layout__box">
+                <p class="sg-text">Insert GitHub usernames and find common starred projects for selected users</p>
+                <form action="" name="search_github">
+                    <div class="sg-layout__fieldset" id="users-inputs">
+                        <input type="text"
+                               class="sg-input sg-input--spaced-bottom sg-input--full-width"
+                               placeholder="Username" required>
+                        <input type="text"
+                               class="sg-input sg-input--spaced-bottom sg-input--full-width"
+                               placeholder="Username" required>
+
+                    </div>
+                    <a href="#" class="sg-button-primary-round sg-button--form" id="add-field">
+                        <div class="sg-button-primary-round__icon">
+                            <svg class="sg-icon sg-icon--x16">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-plus"></use>
+                            </svg>
+                        </div>
+                        <span class="sg-button-primary-round__label">Add another field</span>
+                    </a>
+                    <button class="sg-button-primary sg-button-primary--dark" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="sg-layout__aside-content">
+            <p class="sg-text">Result for your search:</p>
+            <div id="wrapper" class="sg-layout__fieldset"></div>
+        </div>
+    </main>
+</div>
+<script src="https://styleguide.brainly.com/images/icons-5459066133.js"></script>
+<script src="/bundle.js"></script>
+</body>
+</html>

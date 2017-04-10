@@ -1,0 +1,17 @@
+.sg-button--form {
+    display: flex;
+}
+
+.sg-layout__aside-content {
+    padding: 1.5rem 24px 0;
+}
+
+.sg-layout__fieldset {
+    margin-top: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+    .sg-layout__aside-content {
+        padding: 0;
+    }
+}

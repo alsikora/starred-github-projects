@@ -1,0 +1,24 @@
+{
+  "name": "starred-github-projects",
+  "version": "1.0.0",
+  "description": "This web app finds Github projects starred by two provided users.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alsikora/starred-github-projects.git"
+  },
+  "author": "Aleksandra Sikora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alsikora/starred-github-projects/issues"
+  },
+  "homepage": "https://github.com/alsikora/starred-github-projects#readme",
+  "devDependencies": {
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
